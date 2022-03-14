@@ -1,0 +1,11 @@
+n=int(input())
+while(n>0):
+    a,b,c=map(int,input().split())
+    d=a+b
+    if(d>c):
+        print("TRAIN")
+    elif(c>d):
+        print("PLANEBUS")
+    elif(d==c):
+        print("EQUAL")
+    n=n-1 

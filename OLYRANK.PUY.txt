@@ -1,0 +1,8 @@
+n=int(input())
+while(n>0):
+    a,b,c,d,e,f=map(int,input().split())
+    if((a+b+c)>(d+e+f)):
+        print("1")
+    elif((a+b+c)<=(d+e+f)):
+        print("2")
+    n=n-1
